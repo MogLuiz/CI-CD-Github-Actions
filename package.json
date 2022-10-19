@@ -1,12 +1,12 @@
 {
-  "name": "githubActions",
+  "name": "ci-cd-github-actions",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Luiz Henrique <luizhjramos@outlook.com>",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -rf build && next export && mv ./out ./build",
     "start": "next start",
     "lint": "next lint"
   },
