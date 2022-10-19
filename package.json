@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Luiz Henrique <luizhjramos@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
